@@ -2,6 +2,7 @@ import * as React from 'react';
 import { hot } from 'react-hot-loader';
 import './index.less';
 import logo from './logo.svg';
+import SnTabBar from '../Control/SnTabBar'
 
 class App extends React.Component {
   public render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <p className="App-intro">
           TypeScript + React + Less + SaltUI
         </p>
+        <SnTabBar/>
       </div>
     );
   }
